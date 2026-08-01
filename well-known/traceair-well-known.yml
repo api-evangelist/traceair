@@ -1,0 +1,38 @@
+generated: '2026-07-21'
+method: searched
+source: live probe of traceair.net hosts
+note: >-
+  No well-known discovery documents were found. TraceAir publishes no public
+  developer surface; docs.traceair.net sits behind an oauth2-proxy sign-in and
+  signin.traceair.net serves its SPA shell (HTML) on all paths, so its
+  /.well-known/openid-configuration 200 is a catch-all route, not a real OIDC
+  discovery document.
+hosts:
+  - host: https://www.traceair.net
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404
+  - host: https://traceair.net
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+  - host: https://signin.traceair.net
+    documents:
+      - path: /.well-known/openid-configuration
+        status: 200
+        note: false positive — SPA catch-all returns HTML app shell, not OIDC JSON; not saved
+  - host: https://api.traceair.net
+    documents:
+      - path: /
+        status: 404
+        note: host resolves with valid TLS but serves no public API root

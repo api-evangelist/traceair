@@ -1,0 +1,26 @@
+# TraceAir
+
+> TraceAir is a construction site intelligence platform for homebuilders and land developers. It combines drone photogrammetry and LiDAR scans with cloud analytics to track sitework progress, verify earthwork quantities (cut/fill), generate lot layouts and yield estimates, and document construction with 360-degree interior scans — from land acquisition through vertical construction and handover.
+
+TraceAir publishes no public developer portal, API documentation, or client SDKs as of 2026-07-21. Access to the platform is through its web application (signin.traceair.net); product documentation lives in the customer help center.
+
+## Product
+
+- [TraceAir website](https://www.traceair.net): Platform overview — LiDAR scans, Layout Generator, TraceWalk 360, earthwork analysis, historical Time Machine
+- [Help Center](https://manual.traceair.net/en/): End-user documentation for Site Intelligence and Layout Generator
+- [Pricing](https://www.traceair.net/pricing): Plans and pricing
+- [What's New](https://www.traceair.net/whats-new): Product updates and blog
+- [Log in](https://signin.traceair.net/): Customer sign-in
+
+## Legal
+
+- [Terms of Use (EULA)](https://www.traceair.net/legal/eula)
+- [Privacy Policy](https://www.traceair.net/legal/privacy-policy)
+- [Master Service Agreement](https://www.traceair.net/legal/msa)
+
+## Company
+
+- [GitHub organization](https://github.com/TraceAir): Public forks only (tin-terrain, scikit-geometry); no first-party SDKs or specs
+- Backed by 500 Global; profiled in the API Evangelist network as a portfolio-company lead
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + live probe of traceair.net (no /llms.txt published) -->

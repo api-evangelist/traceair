@@ -1,8 +1,25 @@
 aid: traceair
 name: TraceAir
-description: TraceAir is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: TraceAir is a construction site intelligence platform for homebuilders
+  and land developers, combining drone photogrammetry and LiDAR scans with cloud analytics
+  to track sitework progress, verify earthwork cut/fill quantities, generate lot layouts
+  and yield estimates, and document builds with 360-degree interior scans across the
+  full project lifecycle from land acquisition to handover. The company publishes
+  no public developer portal, API documentation, or SDKs; the platform is accessed
+  through its web application.
 url: https://raw.githubusercontent.com/api-evangelist/traceair/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/14792441?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Construction
+- Site Intelligence
+- Drones
+- LiDAR
+- Homebuilding
+- Land Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/traceair-domain-security.yml
 - type: Website
   url: https://traceair.net
+- type: Pricing
+  url: https://www.traceair.net/pricing
+- type: Support
+  url: https://manual.traceair.net/en/
+- type: Blog
+  url: https://www.traceair.net/whats-new
+- type: Login
+  url: https://signin.traceair.net/
+- type: TermsOfService
+  url: https://www.traceair.net/legal/eula
+- type: PrivacyPolicy
+  url: https://www.traceair.net/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/TraceAir
+- type: LLMsTxt
+  url: llms/traceair-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
