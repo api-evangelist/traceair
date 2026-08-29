@@ -8,6 +8,17 @@ description: TraceAir is a construction site intelligence platform for homebuild
   no public developer portal, API documentation, or SDKs; the platform is accessed
   through its web application.
 url: https://raw.githubusercontent.com/api-evangelist/traceair/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
